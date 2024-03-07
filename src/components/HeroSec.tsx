@@ -18,7 +18,7 @@ const HeroSec = ({closeMenu, handleCall}:{closeMenu:boolean, handleCall:()=>void
                 </div>
             </div>
             {/* MOBILE VIEW EXTENTION*/}
-            <div className={closeMenu? "absolute hidden -right-3.5 -top-4 border border-slate-500 bg-color1 px-10 pb-8 pt-4 md:hidden":"absolute -right-3.5 -top-4 border border-slate-500 bg-color1 px-10 pb-8 pt-4 md:hidden"}>
+            <div className={closeMenu? "absolute hidden -right-3.5 -top-4 border border-slate-500 bg-color1 px-10 pb-8 pt-4 md:hidden":"absolute -right-4 -top-4 border border-slate-500 bg-color1 px-10 pb-8 pt-4 md:hidden"}>
             <   div className='flex flex-col items-start space-y-4 text-slate-100 mb-8'>
                     <a href="/" className='font-extrabold text-sm hover:text-indigo-600 mt-3'>Contact</a>
                     <a href="/" className='font-extrabold text-sm hover:text-indigo-600'>Plans</a>

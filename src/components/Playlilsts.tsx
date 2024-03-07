@@ -7,7 +7,7 @@ const Playlists = () => {
   return (
     <section className="bg-color4 py-2 w-full h-fit">
         <div className="bg-color3 flex px-16 py-10 justify-between items-center sm:flex-col-reverse md:flex-row">
-            <div className="w-1/3">
+            <div className="w-1/3 sm:w-[55%] sm:mt-3 md:w-1/3 md:mt-0">
                 <h2 className="text-white text-xl font-medium mb-4">Hand-picked playlists</h2>
                 <p className="text-sm text-slate-400 mb-1">Stream guest playlists curated by artists you love. Also check out our original playlists
                     hand-picked by our team of experts.

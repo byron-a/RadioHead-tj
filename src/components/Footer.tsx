@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <footer>
         <div className="bg-color1 flex px-16 py-10 justify-between place-items-center sm:flex-col sm:space-y-11 md:flex-row md:space-y-0">
-            <div className="w-1/3 -mt-16">
+            <div className="w-1/3 -mt-16 sm:w-[80%] sm:mt-3 md:w-1/3 md:mt-0">
                 <img src={logo} alt="logo copy" className="w-[170px] mb-8"/>
-                <p className="text-slate-400 text-[11px]">Radiohead is the first global music streaming service with high
+                <p className="text-slate-400 text-[11px] ">Radiohead is the first global music streaming service with high
                 fidelity sound , hi-def video quality, along with expertly curated playlists and original
                 content making it a trusted source for music and culture.
                 </p>
