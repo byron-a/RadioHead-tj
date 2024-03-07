@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body {
+  font-family:"Comfortaa",sans-serif;
+}
+
+/* .menu {
+  display:none;
+} */
