@@ -7,7 +7,7 @@ const HeroSec = ({closeMenu, handleCall}:{closeMenu:boolean, handleCall:()=>void
 
   return (
     <section className=" bg-heroMask p-4 ">
-        <div className='relative w-full h-[80vh]'>
+        <div className='relative w-full md:h-[80vh] sm:h-[60vh]'>
             <img src={iphoneCover} alt="phone image" className="w-full h-full"/>
             <div className='absolute top-[16%] left-14 w-1/2 sm:left-[25%] md:left-14'>
                 <h1 className="text-[3.5vw] text-white font-extrabold leading-normal mb-10 lg:text-4xl lg:leading-normal">Discover, search, and play any song featuring voice control.</h1>
